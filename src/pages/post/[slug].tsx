@@ -9,16 +9,9 @@ interface Post {
   first_publication_date: string | null;
   data: {
     title: string;
-    banner: {
-      url: string;
-    };
+    banner: { url: string };
     author: string;
-    content: {
-      heading: string;
-      body: {
-        text: string;
-      }[];
-    }[];
+    content: { heading: string; body: { text: string }[] }[];
   };
 }
 
@@ -33,7 +26,10 @@ interface PostProps {
 // export const getStaticPaths = async () => {
 //   const prismic = getPrismicClient();
 //   const posts = await prismic.query(TODO);
-
+// return {
+//   paths: [],
+//   fallback: 'blocking',
+// };
 //   // TODO
 // };
 
