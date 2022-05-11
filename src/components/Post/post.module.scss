@@ -1,32 +1,26 @@
 .article {
   cursor: pointer;
 }
-
 .title {
-  font-size: 3rem;
+  font-size: 1.75rem;
   font-weight: bold;
   color: var(--heading);
 }
-
 .description {
   font-size: 1.125rem;
   color: var(--body);
   margin: 0.8rem 0 1.5rem 0;
 }
-
 .infos {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  font-size: 1rem;
   color: var(--info);
 }
-
 .date {
   display: flex;
   align-items: center;
 }
-
 .icon {
   margin-right: 0.45rem;
   display: flex;
@@ -37,28 +31,4 @@
   margin-left: 1rem;
   display: flex;
   align-items: center;
-}
-.bannerContainer {
-  width: 100%;
-  height: 400px;
-  margin-bottom: 50px;
-  figure {
-    height: 100%;
-    img {
-      height: 100%;
-      width: 100%;
-    }
-  }
-}
-.time {
-  margin-left: 24px;
-  display: flex;
-  align-items: center;
-}
-.content {
-  color: var(--heading);
-  font-size: 18px;
-  h2 {
-    margin: 50px 0px 40px 0px;
-  }
 }
